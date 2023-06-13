@@ -1,0 +1,86 @@
+body {
+    background-color: #E81D1D;
+    font-family: arial;
+    margin: 50px 120px 150px 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+.posicionTablero{
+    position:relative;
+    top: 50px;
+}
+
+.fieldset1 {
+    background: #FF4343;
+    border-color: transparent;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+img {
+    position: relative;
+    top:50px;
+}
+
+h1 {
+    position: relative;
+    top:50px;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+#posicion1 {
+    position: relative;
+    top:100px;
+}
+
+#posicion2 {
+    position: relative;
+    top:150px;
+}
+
+#posicion3 {
+    position: relative;
+    top:250px;
+}
+
+#posicion4 {
+    position: relative;
+    top:300px;
+}
+
+.boton{
+    width: 200px;
+    height: 35px;
+    background-color: yellow;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: rgb(255, 255, 94);
+    border-color: black;
+}
+
+.inputPassword {
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.inputText {
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+a {
+    font-size: small;
+    color: white;
+}

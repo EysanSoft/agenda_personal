@@ -1,0 +1,45 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Agenda Principal
+    link(rel='stylesheet' href='/stylesheets/agendaPrincipal.css')
+#panel
+    form
+        fieldset.formularioBusqueda
+            input.barraBusqueda(type='text' placeholder='Buscar un Contacto' required='')
+            input.botonBuscar(type='submit' value='Buscar')
+    br
+    a.botonAgregar(href='agregarContactos') Agregar un Nuevo Contacto
+    #perfil
+        img.iconoContacto(src='/images/icono.png' alt='Foto del Logo de la Pagina' width='100' height='100')
+
+        div.box-a
+            a(href='login') Cerrar session
+        p.perfilTexto Nombre del Usuario:
+        - if (user)
+            p.perfilTexto #{user.username}
+#contacto1
+    img.iconos(src='/images/icono.png' alt='Foto del Logo de la Pagina' width='75' height='75')
+    img.iconos2(src='/images/iconoEliminar.png' alt='Foto del Logo de borrar' width='25' height='25')
+    img.iconos3(src='/images/iconoActualizar.png' alt='Foto del Logo de actualizar' width='25' height='25')
+    p.nombreContactos Eyssy
+    p.paternoContactos Hernandez
+    p.maternoContactos Sanchez
+    p.telefono tel: 9611124188
+    p.personal per: 9681204567
+    p.direccion dir: direccion falsa 1
+    p.correo email: 193286@ids.upchiapas.edu.mx
+br
+#contacto2
+    img.iconos(src='/images/icono.png' alt='Foto del Logo de la Pagina' width='75' height='75')
+    img.iconos2(src='/images/iconoEliminar.png' alt='Foto del Logo de borrar' width='25' height='25')
+    img.iconos3(src='/images/iconoActualizar.png' alt='Foto del Logo de actualizar' width='25' height='25')
+    p.nombreContactos Eduardo
+    p.paternoContactos Nanguelu
+    p.maternoContactos Lopez--
+    p.telefono tel: 9611234567
+    p.personal per: 9687654321
+    p.direccion dir: direccion falsa 2
+    p.correo email: 193228@ids.upchiapas.edu.mx
+br

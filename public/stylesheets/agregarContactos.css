@@ -1,0 +1,94 @@
+body {
+    background-color: #E81D1D;
+    font-family: arial;
+    margin: 10px, 50px;
+    padding: 20px;
+    text-align: center;	 
+}
+
+form {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.nuevoContacto {
+    background: #FF4343;
+    border-color: transparent;
+    width: 800px;
+    height: 350px;
+}
+
+.nombre {
+    position: relative; 
+    right:245px;
+    top: 20px;
+    width: 250px;
+    height: 25px;
+}
+
+.aPaterno {
+    position: relative; 
+    right:55px;
+    bottom: 15px;
+    width: 250px;
+    height: 25px;
+}
+
+.aMaterno {
+    position: relative; 
+    left: 10px;
+    bottom: 15px;
+    width: 250px;
+    height: 25px;
+}
+
+.fotoPerfil {
+    position: relative; 
+    left: 45px;
+    bottom: 10px;
+}
+
+.telefono {
+    position: relative; 
+    right: 115px;
+    width: 250px;
+    height: 25px;
+}
+
+.celular {
+    position: relative; 
+    right: 50px;
+    width: 250px;
+    height: 25px;
+}
+
+.direccion {
+    position: relative;
+    right: 65px;
+    top: 70px;
+    width: 250px;
+    height: 25px;
+}
+
+.correo {
+    position: relative;
+    left: 1px;
+    top: 70px;
+    width: 250px;
+    height: 25px;
+}
+
+.ingresar {
+    background-color: yellow;
+    position: relative;
+    left: 45px;
+    top: 70px;
+    width: 100px;
+    height: 25px;
+}
+
+.ingresar:hover {
+    background-color: white;
+    border: none;
+}

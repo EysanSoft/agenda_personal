@@ -1,0 +1,24 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title agregarContactos
+    link(rel='stylesheet' href='/stylesheets/agregarContactos.css')
+form(action="contactos/agregarContactos" method="POST").posicionformulario
+    h1 Nuevo Contacto
+    fieldset.nuevoContacto
+        #datosPersonales
+            input.nombre(type='text' name='nombre' placeholder='Nombre' required='')
+            br
+            input.aPaterno(type='text' name='paterno' placeholder='Apellido Paterno' required='')
+            input.aMaterno(type='text' name='materno' placeholder='Apellido Materno' required='')
+            img.fotoPerfil(src='/images/icono.png' alt='Foto del Logo de la Pagina' width='120' height='120')
+            br
+            hr
+            br
+            input.telefono(type='number' name='telefono' placeholder='Numero Telefonico' required='')
+            input.celular(type='number' name='celular' placeholder='Numero Personal' required='')
+            br
+            input.direccion(type='text' name='direccion' placeholder='Direccion' required='')
+            input.correo(type='text' name='correo' placeholder='Correo Electronico' required='')
+            input.ingresar(type='submit' value='Ingresar')

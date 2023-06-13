@@ -1,0 +1,22 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Login
+    link(rel='stylesheet' href='/stylesheets/login.css')
+form(action="/login" method="POST").posicionTablero
+    img(src='/images/icono.png' alt='Foto del Logo de la Pagina' width='120' height='120')
+    fieldset.fieldset1
+        h1 Agenda Personal
+        #posicion1
+            input.inputText(type='text' name="username" placeholder=' Usuario' required='')
+        #posicion2
+            input.inputPassword(type='passWord' name="password" placeholder=' Contraseña' required='')
+        #posicion3
+            input.boton(type='submit' value='Ingresar')
+        #posicion4
+            a(href='signUp') Crear una Cuenta
+            a(href='recuperarContrasena') &iquest;Olvidaste tu Contrase&ntilde;a?
+            if (message && message.length > 0)
+                    p(class="alert alert-danger") #{message}
+
